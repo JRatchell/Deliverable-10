@@ -2,23 +2,14 @@
 
 <head>
     <title>JS Text Editor</title>
-    <script>
-        function bold(){document.getElementById('textarea1').style.fontWeight='bold'}
-        function italic(){document.getElementById('textarea1').style.fontStyle='italic'}
-        function la(){document.getElementById('textarea1').style.textAlign='left'}
-        function ra(){document.getElementById('textarea1').style.textAlign='right'}
-        function center(){document.getElementById('textarea1').style.textAlign='center'}
-        function uppercase(){document.getElementById('textarea1').style.textTransform='uppercase'}
-        function lowercase(){document.getElementById('textarea1').style.textTransform='lowercase'}
-        function capitalize(){document.getElementById('textarea1').style.textTransform='capitalize'}
-        function clear(){document.getElementById('textarea1').value= ''}
+    <script src="app.js">
     </script>
 </head>
 
 <body>
         <button onclick="bold()">Bold</button>
         <button type="button" onclick="italic()">Italic</button>
-        <button type="button" onclick="la">LA</button>
+        <button type="button" onclick="la()">LA</button>
         <button type="button" onclick="ra()">RA</button>
         <button type="button" onclick="center()">Center</button>
         <button type="button" onclick="uppercase()">Uppercase</button>
