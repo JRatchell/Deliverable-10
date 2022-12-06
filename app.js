@@ -7,9 +7,9 @@ function uppercase(){document.getElementById('textarea1').style.textTransform='u
 function lowercase(){document.getElementById('textarea1').style.textTransform='lowercase';}
 function capitalize(){document.getElementById('textarea1').style.textTransform='capitalize';}
 function clear(){
-    document.getElementById('textarea1').value=''
-    document.getElementById('textarea1').style.fontWeight='normal'
-    document.getElementById('textarea1').style.fontStyle='normal'
-    document.getElementById('textarea1').style.textAlign='left'
+    document.getElementById('textarea1').value='';
+    document.getElementById('textarea1').style.fontWeight='normal';
+    document.getElementById('textarea1').style.fontStyle='normal';
+    document.getElementById('textarea1').style.textAlign='left';
     document.getElementById('textarea1').style.textTransform='lowercase';
 }
