@@ -6,4 +6,10 @@ function center(){document.getElementById('textarea1').style.textAlign='center';
 function uppercase(){document.getElementById('textarea1').style.textTransform='uppercase';}
 function lowercase(){document.getElementById('textarea1').style.textTransform='lowercase';}
 function capitalize(){document.getElementById('textarea1').style.textTransform='capitalize';}
-function clear(){document.getElementById('textarea1').value='';}
+function clear(){
+    document.getElementById('textarea1').value=''
+    document.getElementById('textarea1').style.fontWeight='normal'
+    document.getElementById('textarea1').style.fontStyle='normal'
+    document.getElementById('textarea1').style.textAlign='left'
+    document.getElementById('textarea1').style.textTransform='lowercase';
+}
